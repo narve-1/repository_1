@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Screenshot_method">
+  <test thread-count="5" name="Remove_cart_method">
+    <classes>
+      <class name="testCases.Inventory_Page_Test_Day_4_removecart"/>
+      <class name="testCases.LoginPage_Test_Day4_excelfile"/>
+    </classes>
+  </test> <!-- Remove_cart_method -->
+</suite> <!-- Screenshot_method -->
