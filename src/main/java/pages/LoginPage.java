@@ -13,6 +13,7 @@ public class LoginPage extends TestBase
 	@FindBy(xpath = "//input[@id='password']") private WebElement PassTxtBox;
 	@FindBy(xpath = "//input[@id='login-button']") private WebElement LoginBtn;
 	
+	
 	public LoginPage()
 	{
 		PageFactory.initElements(driver, this);
@@ -37,5 +38,6 @@ public class LoginPage extends TestBase
 		return driver.getTitle();
 		
 	}
+
 	
 }
